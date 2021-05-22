@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    font-family: roboto;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/back-02.png");
+    background-size: cover;
+    /* background-size: 100% auto; */
+    background-repeat: no-repeat;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Columns in the interfase */
+.oneCol{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: rgba(46, 46, 46, 0.57);
+    height: 100vh;
+} 
+.twoCol{
+    display: flex;
+    align-content: center; 
+    flex-direction: column; 
+    justify-content: center;
+} 
+
+/* boxes interfases */
+
+
+/* elements in the interfase */
+.createRocket{
+    color: white;
+    background-color: #a1aa27;
+    font-weight: bold;
+    font-size: 2em;
+    width: 100%;
+    margin-top: 0.3em;
+}
+
+.buttonUp{
+    color: white;
+    background-color: #249c0b;
+    font-weight: bold;
+    font-size: 2em;
+    width: 100%;
+    margin-top: 0.3em;
+}
+
+.buttonDown{
+    color: white;
+    background-color: #a1051d;
+    font-weight: bold;
+    font-size: 2em;
+    width: 100%;
+    margin-top: 0.3em;
+}
+
+.title{
+    margin-top: 2em;
+   text-align: center;
+   color: white;
+}
+.potencia{
+    margin-top: 0.3em;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

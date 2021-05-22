@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="oneCol">
+                <!-- rocket one -->
+                <div class="boxes">
+                    <h1 class="title">Cohete 32WESSDS</h1>
+                    <button class="createRocket" id="createCohete1" click="getInside()">Crear Cohete</button>
+                    <button class="buttonUp" id="increaseCohete1">Acelerar</button>
+                    <button class="buttonDown" id="decreaseCohete1">Frenar</button>
+                    <h3 class="potencia" id="result1">Potencia</h3>
+                </div>
+                <!-- rocket two -->
+                <div class="boxes">
+                    <h1 class="title">Cohete LDSFJA32</h1>
+                    <button class="createRocket" id="createCohete2">Crear Cohete</button>
+                    <button class="buttonUp" id="increaseCohete2">Acelerar</button>
+                    <button class="buttonDown" id="decreaseCohete2">Frenar</button>
+                    <h3 class="potencia" id="result2">Potencia</h3>
+                </div>
+            </div>
+            <div class="twoCol">
+                <img src="img/back-01.png" alt="Rocket 1" class="imgRockets" id="rocket1">
+                <img src="img/back-01.png" alt="Rocket 2" class="imgRockets" id="rocket2">
+
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- javascipt files  -->
+    <script src="../controller/main.js"></script>
+    <script src="../model/createRocket.js"></script>
+</body>
+</html>
